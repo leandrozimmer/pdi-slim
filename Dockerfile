@@ -13,7 +13,6 @@ RUN  mkdir -p /opt \
  && rm -r /opt/data-integration/ADDITIONAL-FILES \
  && rm -r /opt/data-integration/docs \
  && rm -r /opt/data-integration/samples \
- && rm -r /opt/data-integration/system \
  && rm -r /opt/data-integration/plugins/pentaho-big-data-plugin \
  && rm -r /opt/data-integration/plugins/pentaho-cassandra-plugin \
  && rm -r /opt/data-integration/plugins/pentaho-googledrive-vfs \
