@@ -3,7 +3,7 @@ FROM openjdk:8-jre-alpine3.9
 ENV PDIBRANCH=9.0
 ENV PDIVERSION=9.0.0.0-423
 
-RUN apk update && apk --no-cache add curl && apk --no-cache add py3-setuptools && pip3 install --upgrade pip && pip3 install awscli
+RUN apk update && apk --no-cache add curl && apk --no-cache add py3-setuptools && pip3 install --upgrade pip && pip3 install awscli && pip3 install requests PyMySQL
 
 RUN  mkdir -p /opt \
  && cd /opt \
